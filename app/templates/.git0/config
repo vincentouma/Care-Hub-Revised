@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/vincentouma/Care-Hub.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "care"]
+	url = https://github.com/JOFLIX/Care-Hubs.git
+	fetch = +refs/heads/*:refs/remotes/care/*
+[remote "carehub"]
+	url = https://github.com/JOFLIX/Care-Hub.git
+	fetch = +refs/heads/*:refs/remotes/carehub/*

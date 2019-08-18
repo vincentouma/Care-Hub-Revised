@@ -1,0 +1,27 @@
+0000000000000000000000000000000000000000 c9139324823ba39eba234c78f290cd6583f7e4de vincentouma <vinceoumah@gmail.com> 1565527545 +0300	commit (initial): first commit
+c9139324823ba39eba234c78f290cd6583f7e4de c9139324823ba39eba234c78f290cd6583f7e4de vincentouma <vinceoumah@gmail.com> 1565681580 +0300	checkout: moving from master to development
+c9139324823ba39eba234c78f290cd6583f7e4de fbef2d34559f1c908db7634f5307d65524ec0557 vincentouma <vinceoumah@gmail.com> 1565681696 +0300	commit: create folder structure
+fbef2d34559f1c908db7634f5307d65524ec0557 defddc1ce2bf3afb579cbec2f4c784fa520a2965 vincentouma <vinceoumah@gmail.com> 1565681833 +0300	commit: install app requirements
+defddc1ce2bf3afb579cbec2f4c784fa520a2965 6a47de0c135a878df3c962dbdf7ba4c7b28b1708 vincentouma <vinceoumah@gmail.com> 1565696890 +0300	commit: craete base.html
+6a47de0c135a878df3c962dbdf7ba4c7b28b1708 76dc5203e1f6192b54582d45115d96e7158743ee vincentouma <vinceoumah@gmail.com> 1565702890 +0300	commit: add fact on cancer in facts.html
+76dc5203e1f6192b54582d45115d96e7158743ee 31f6414790385d2c82303e3601f97b4d4718a7b8 vincentouma <vinceoumah@gmail.com> 1565722216 +0300	commit: add cancer health catre providers in provide.html
+31f6414790385d2c82303e3601f97b4d4718a7b8 7f24f0b4eda11cf384574cdb38b98b1e89177569 vincentouma <vinceoumah@gmail.com> 1565768462 +0300	commit: add support
+7f24f0b4eda11cf384574cdb38b98b1e89177569 c9139324823ba39eba234c78f290cd6583f7e4de vincentouma <vinceoumah@gmail.com> 1565769084 +0300	checkout: moving from development to master
+c9139324823ba39eba234c78f290cd6583f7e4de 7f24f0b4eda11cf384574cdb38b98b1e89177569 vincentouma <vinceoumah@gmail.com> 1565769103 +0300	merge development: Fast-forward
+7f24f0b4eda11cf384574cdb38b98b1e89177569 7f24f0b4eda11cf384574cdb38b98b1e89177569 vincentouma <vinceoumah@gmail.com> 1565769275 +0300	checkout: moving from master to development
+7f24f0b4eda11cf384574cdb38b98b1e89177569 7f24f0b4eda11cf384574cdb38b98b1e89177569 vincentouma <vinceoumah@gmail.com> 1565769291 +0300	checkout: moving from development to master
+7f24f0b4eda11cf384574cdb38b98b1e89177569 b8fe181295a7e46a4294b375466af7fabaf6006d JOFLIX <joflixooko@outlook.com> 1565781018 +0300	commit: done routing of the views
+b8fe181295a7e46a4294b375466af7fabaf6006d 5879d1084b2fba63bf9dac07533eda7490a51673 JOFLIX <joflixooko@outlook.com> 1565781060 +0300	commit: git ignorance
+5879d1084b2fba63bf9dac07533eda7490a51673 6fa3f6416b60214d3287200a4c3fc9b371bd7144 JOFLIX <joflixooko@outlook.com> 1565781104 +0300	commit: configuring the engine , not that you have to solve this for it to work
+6fa3f6416b60214d3287200a4c3fc9b371bd7144 17aec1129177752403b01afa982c18accbff7ede JOFLIX <joflixooko@outlook.com> 1565781138 +0300	commit: configured executtable app
+17aec1129177752403b01afa982c18accbff7ede aa81ac9518413ce05337fbcd47f1f3bc22dd9f4f JOFLIX <joflixooko@outlook.com> 1565781231 +0300	commit: Procfile
+aa81ac9518413ce05337fbcd47f1f3bc22dd9f4f e0745797eceb1d56cdb0933fd9cb49fc2afd7a72 JOFLIX <joflixooko@outlook.com> 1565781253 +0300	commit: first migration
+e0745797eceb1d56cdb0933fd9cb49fc2afd7a72 60df2b249198826c1ed653262a6794a52c31e036 JOFLIX <joflixooko@outlook.com> 1565781298 +0300	commit: definnning tests
+60df2b249198826c1ed653262a6794a52c31e036 614af648df5cdd28315528df1f37314b696f1759 JOFLIX <joflixooko@outlook.com> 1565781329 +0300	commit: configured the app for heroku
+614af648df5cdd28315528df1f37314b696f1759 df9aa3839ac6e166ea607025177288b1d80eeff9 JOFLIX <joflixooko@outlook.com> 1565781376 +0300	commit: added mit licensing
+df9aa3839ac6e166ea607025177288b1d80eeff9 7d4676acd04ffb17f2ad16f1b494ca16f95716cd JOFLIX <joflixooko@outlook.com> 1565781391 +0300	commit: first collabo
+7d4676acd04ffb17f2ad16f1b494ca16f95716cd 2739aa6a89c189f2a5e29d05e5294d6f80bd0058 JOFLIX <joflixooko@outlook.com> 1565796596 +0300	commit: mvv
+2739aa6a89c189f2a5e29d05e5294d6f80bd0058 e97e97bbde659cc1200bc431a0002ac75e177a2f JOFLIX <joflixooko@outlook.com> 1565864657 +0300	commit: added changes to the templates
+e97e97bbde659cc1200bc431a0002ac75e177a2f 574996ccba82fec528e7d56f54c3d479a3b2fac8 JOFLIX <joflixooko@outlook.com> 1565869164 +0300	commit: solved the merge issues
+574996ccba82fec528e7d56f54c3d479a3b2fac8 0770bbca5f191f9db14486918a1815d32ab9b64b JOFLIX <joflixooko@outlook.com> 1565874048 +0300	commit: customizing the providers page
+0770bbca5f191f9db14486918a1815d32ab9b64b de71cef196f25dd831e8ca525b0dec20a7cfeb10 JOFLIX <joflixooko@outlook.com> 1565884536 +0300	commit: customizing the providers page

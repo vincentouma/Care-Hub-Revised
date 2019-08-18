@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>CareHub+</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/animate.css">
+    <link rel="stylesheet" href="static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="static/css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="static/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="static/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="static/css/style.css">
+  </head>
+  <body>
+    <header role="banner">
+    <div class="top-bar">
+      <div class="container">
+         <div class="row">
+           <div class="col-md-6 col-sm-6 col-5">
+             <ul class="social list-unstyled">
+               <li><a href="https://www.facebook.com/CareHub-112615073428983/"><span class="fa fa-facebook"></span></a></li>
+               <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+               <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+             </ul>
+           </div>
+           <div class="col-md-6 col-sm-6 col-7 text-right">
+             <p class="mb-0">
+               <a href="{{url_for('auth.login')}}" class="cta-btn" >Make an Appointment</a></p>
+           </div>
+         </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+         <a class="navbar-brand" href="/">Care <span>HuB</span>  </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+ ​
+         <div class="collapse navbar-collapse" id="navbarsExample05">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link active" href="/">Home</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+               <div class="dropdown-menu" aria-labelledby="dropdown04">
+                 <a class="dropdown-item" href="/support">Support</a>
+                 <a class="dropdown-item" href="/facts">Facts</a>
+                 <a class="dropdown-item" href="/services">Providers</a>
+               </div>
+ ​
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+               <div class="dropdown-menu" aria-labelledby="dropdown05">
+                 <a class="dropdown-item" href="/doctorsl" class="disabled">Find Doctors</a>
+                 <a class="dropdown-item" href="/provider">Practitioner</a>
+               </div>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/news">News</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link"href="{{url_for('auth.login')}}">Blog</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/about">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/contact">Contact</a>
+             </li>
+           </ul>
+         </div>
+      </div>
+    </nav>
+  </header>
+    <!-- END header -->
+
+
+    <section class="home-slider inner-page owl-carousel">
+      <div class="slider-item" style="background-image: url('static/img/slider-2.jpg');">
+
+        <div class="container">
+          <div class="row slider-text align-items-center">
+            <div class="col-md-7 col-sm-12 element-animate">
+              <h1>News &amp; Events</h1>
+              <p>We supply the most current and verifiable news to our clients.</p>            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- END slider -->
+
+
+    <section class="section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="static/img/img_thumb_1.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">13 August 2019 </span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">Survival and chemotherapy success rates for various cancers</a></h3>
+                <p>Chemotherapy is a powerful treatment that involves taking medications to damage cancerous cells. The goal is to prevent these cells from dividing and multiplying..</p>
+                <p class="clearfix">
+                  <a href="https://www.medicalnewstoday.com/articles/326031.php" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="static/img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">August 15, 2019</span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">Roche's personalized cancer treatment wins FDA approval</a></h3>
+                <p>The U.S. Food and Drug Administration approved Roche Holding AG’s personalized cancer treatment, which targets tumors with specific genetic mutations, irrespective of where in the body the disease started, the agency said on Thursday.</p>
+                <p class="clearfix">
+                  <a href="https://www.reuters.com/article/us-roche-hldg-fda/roches-personalized-cancer-treatment-wins-fda-approval-idUSKCN1V52AW" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="static/img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">14 August 2019 </span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">How might the keto diet help treat cancer?</a></h3>
+                <p>New research in mice suggests that keeping blood sugar under control using either the ketogenic diet or a diabetes drug could help treat certain cancers by boosting the efficacy of standard chemotherapy.</p>
+                <p class="clearfix">
+                  <a href="https://www.medicalnewstoday.com/articles/326043.php" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/326/326028/pancreatic-cancer-cells-illustration.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">December 2, 2017</span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">Pancreatic cancer cells spread by 'educating' the tumor environment</a></h3>
+                <p>New research in mice reveals "previously unknown" molecules that pancreatic cancer cells use to shape the environment around the tumors and enable them to spread.</p>
+                <p class="clearfix">
+                  <a href="https://www.medicalnewstoday.com/articles/326028.php" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="static/img/img_thumb_2.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">December 2, 2017</span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">Mutations linked to familial pancreatic cancert</a></h3>
+                <p>A new study finds genetic mutations associated with hereditary forms of pancreatic cancer and mechanism by which these mutations may contribute to the development of tumors. </p>
+                <p class="clearfix">
+                  <a href="#" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-left">
+              <img src="static/img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
+              <div class="media-body">
+                <span class="meta-post">December 2, 2017</span>
+                <h3 class="mt-0 text-black"><a href="#" class="text-black">More cancer cases among women with sleep apnea</a></h3>
+                <p>Women with severe sleep apnea appear to be at an elevated risk of getting cancer, a study shows. No causal relationship is demonstrated, but the link between nocturnal hypoxia in women and higher cancer risk is still clear. </p>
+                <p class="clearfix">
+                  <a href="#" class="float-left">Read more</a>
+                  <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row element-animate">
+          <div class="col-md-5">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" class="cta-link element-animate" data-toggle="modal" data-target="#modalAppointment">
+      <span class="sub-heading">Ready to Visit?</span>
+      <span class="heading">Make an Appointment</span>
+    </a>
+    <!-- END cta-link -->
+
+    <!-- END cta-link -->
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="row mb-5 element-animate">
+          <div class="col-md-3 mb-5">
+            <h3>Services</h3>
+            <ul class="footer-link list-unstyled">
+              <li><a href="/support">Find a doctor</a></li>
+              <li><a href="/contact">Urgent Care</a></li>
+              <li><a href="/contact">Emergency Care</a></li>
+              <li><a href="/facts">Procedures &amp; Treatments</a></li>
+              <li><a href="/services">Online Services</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3>Latest News</h3>
+            <ul class="footer-link list-unstyled">
+              <li><a href="/news">News &amp; Press Releases</a></li>
+              <li><a href="/news">Health Care Professional News</a></li>
+              <li><a href="/support">Events &amp; Conferences</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3>About</h3>
+            <ul class="footer-link list-unstyled">
+              <li><a href="/about">About The Hospital</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <!-- <li><a href="#">Accreditations &amp; Awards</a></li> -->
+              <li><a href="#" >Careers</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-5">
+            <h3>Location &amp; Contact</h3>
+            <p class="mb-5">134 Street Name, City Name Here, United States</p>
+
+            <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
+            <p class="mb-5"><a href="mailto:joflixo@gmail.com">info@carehub.com</a></p>
+
+            <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
+            <p><a href="tel:0708275041">+254 708275041</a></p>
+
+          </div>
+        </div>
+
+        <div class="row pt-md-3 element-animate">
+          <div class="col-md-12">
+            <hr class="border-t">
+          </div>
+          <div class="col-md-6 col-sm-12 copyright">
+            <p>&copy; 2019 CareHub. Designed &amp; Developed by <a href="/">CareHub</a></p>
+          </div>
+          <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
+            <a href="https://www.facebook.com/CareHub-112615073428983/" class="p-2"><span class="fa fa-facebook"></span></a>
+            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+            <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END footer -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="form-group">
+                <label for="appointment_name" class="text-black">Full Name</label>
+                <input type="text" class="form-control" id="appointment_name">
+              </div>
+              <div class="form-group">
+                <label for="appointment_email" class="text-black">Email</label>
+                <input type="text" class="form-control" id="appointment_email">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="appointment_date" class="text-black">Date</label>
+                    <input type="text" class="form-control" id="appointment_date">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="appointment_time" class="text-black">Time</label>
+                    <input type="text" class="form-control" id="appointment_time">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-group">
+                <label for="appointment_message" class="text-black">Message</label>
+                <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">function add_chatinline(){var hccid=10689259;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatinline(); </script>
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/owl.carousel.min.js"></script>
+    <script src="static/js/bootstrap-datepicker.js"></script>
+    <script src="static/js/jquery.timepicker.min.js"></script>
+    <script src="static/js/jquery.waypoints.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>

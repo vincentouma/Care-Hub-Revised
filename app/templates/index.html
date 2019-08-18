@@ -1,0 +1,530 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700" rel="stylesheet">
+
+<link rel="stylesheet" href="static/css/bootstrap.css">
+<link rel="stylesheet" href="static/css/animate.css">
+<link rel="stylesheet" href="static/css/owl.carousel.min.css">
+<link rel="stylesheet" href="static/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="static/css/jquery.timepicker.css">
+
+<link rel="stylesheet" href="static/fonts/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="static/fonts/fontawesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/fonts/flaticon/font/flaticon.css">
+
+<script charset="UTF-8" src="//cdn.sendpulse.com/js/push/1562ad15c658db04f0d8c104519621ce_1.js" async></script>
+<!-- Theme Style -->
+<!-- <link rel="stylesheet" href="static/css/style.css"> -->
+<link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+   <header role="banner">
+   <div class="top-bar">
+     <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-5">
+            <ul class="social list-unstyled">
+              <li><a href="https://www.facebook.com/CareHub-112615073428983/"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-6 col-7 text-right">
+            <p class="mb-0">
+              <a href="{{url_for('auth.login')}}" class="cta-btn" >Make an Appointment</a></p>
+          </div>
+        </div>
+     </div>
+   </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="container">
+        <a class="navbar-brand" href="/">Care <span>HuB</span>  </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+​
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="/support">Support</a>
+                <a class="dropdown-item" href="/facts">Facts</a>
+                <a class="dropdown-item" href="/services">Providers</a>
+              </div>
+​
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown05">
+                <!-- <a class="dropdown-item" href="/doctorsl">Find Doctors</a> -->
+                <a class="dropdown-item" href="/provider">Practitioner</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="{{url_for('auth.login')}}">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+     </div>
+   </nav>
+ </header>
+<section class="home-slider owl-carousel">
+  <div class="slider-item" style="background-image: url('static/img/slider-2.jpg');">
+
+    <div class="container">
+      <div class="row slider-text align-items-center">
+        <div class="col-md-7 col-sm-12 element-animate">
+          <h1>We Care For You</h1>
+          <p>We care for our planet. We care for our world. CareHub is where we all care for you, we offer you cancer information and suport services.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="slider-item" style="background-image: url('static/img/slider-1.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center">
+        <div class="col-md-7 col-sm-12 element-animate">
+          <h1>We Provide Health Care Solutions</h1>
+          <p>We provide linkings to the diagnostic, support group, counselling, and other fundings that are necessary for our patients. Together we can beat this!!</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- END slider -->
+
+
+<section class="container home-feature mb-5">
+  <div class="row">
+    <div class="col-md-4 p-0 one-col element-animate">
+      <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+        <span class="icon flaticon-hospital-bed"></span>
+        <h2>Patient Services</h2>
+        <p>We provide our esteemed patients with support services and informational services necessary to get help on cancer and other relevant oncology services.</p>
+      </div>
+      <a href="/services" class="btn-more">Read More</a>
+    </div>
+    <div class="col-md-4 p-0 two-col element-animate">
+      <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+        <span class="icon flaticon-first-aid-kit"></span>
+        <h2>Medical Services</h2>
+        <p>We provide diagnostic and tretment services, we do offer cancer screenings. We facillitate the transportation to abroad for treatment services that can not be done in the country</p>
+      </div>
+      <a href="/services" class="btn-more">Read More</a>
+    </div>
+    <div class="col-md-4 p-0 three-col element-animate">
+      <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
+        <span class="icon flaticon-hospital"></span>
+        <h2>Amenities</h2>
+        <p>We know that a cancer diagnosis, treatments and hospital stays are a stressful experience for many patients.</p>
+        <p> To help make your stay more comfortable and ease some of the anxiety of your journey,
+          our oncology service provider hospitals offer a variety of amenities and services to help make your visits as stress-free as possible. These include:Transport, Communication, Support Group</p>
+      </div>
+      <a href="/about" class="btn-more">Read More</a>
+    </div>
+  </div>
+</section>
+<!-- END section -->
+
+<section class="section stretch-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5 element-animate">
+      <div class="col-md-8 text-center mb-5">
+        <h2 class="text-uppercase heading border-bottom mb-4">Why Choose Us</h2>
+        <p class="mb-0 lead">The Care Hub provides the most advanced medical expertise in an environment that focuses on humanity, compassion and concern. Ongoing collaborations with basic physicians, oncologists, scientists and clinical researchers in the Care Hub mean that patients benefit from the latest discoveries and innovative treatments, leading to better outcomes.</p>
+      </div>
+    </div>
+    <div class="row align-items-center">
+
+      <div class="col-md-6 stretch-left-1 element-animate" data-animate-effect="fadeInLeft">
+        <a href="#" class="video"><img src="static/img/img_1.jpg" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-md-6 stretch-left-1-offset pl-md-5 pl-0 element-animate" data-animate-effect="fadeInLeft">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <div class="media d-block media-feature text-center">
+              <span class="icon flaticon-hospital"></span>
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Amenities</h3>
+                <p>These include:Transport, Communication, Support Group.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <div class="media d-block media-feature text-center">
+              <span class="icon flaticon-first-aid-kit"></span>
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Medical Services</h3>
+                <p>We provide diagnostic and treatment services, addenda to this is the support group systems..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <div class="media d-block media-feature text-center">
+              <span class="icon flaticon-hospital-bed"></span>
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Patient Services</h3>
+                <p>We provide our patients with a free environment, where they can share their thoughts and get feedbacks. They can also get to be speeking in their choosen groups.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <div class="media d-block media-feature text-center">
+              <span class="icon flaticon-doctor"></span>
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Expert Doctors</h3>
+                <p>We provide expert oncologists from different countries and of different cadres.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END section -->
+
+<section class="section custom-tabs">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 border-right element-animate">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><span>01</span> Amenities</a>
+          <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><span>02</span> Medical Services</a>
+          <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false"><span>03</span> Patient Services</a>
+          <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"><span>04</span> Expert Doctors</a>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-7 element-animate">
+
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <span class="icon flaticon-hospital"></span>
+            <h2 class="text-primary">Amenities</h2>
+            <p class="lead">
+              We know that a cancer diagnosis, treatments and hospital stays are a stressful experience for many patients.<br> To help make your stay more comfortable and ease some of the anxiety of your journey, our oncology service provider hospitals offer a variety of amenities and services to help make your visits as stress-free as possible. These include:Transport, Communication, Support Group
+            </p>
+            <p><a href="#" class="btn btn-primary">Learn More</a></p>
+          </div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+            <span class="icon flaticon-first-aid-kit"></span>
+            <h2 class="text-primary">Medical Services</h2>
+            <p class="lead">We offer a wide variety of medical services, from screening to treatment. All you have to do is to book an appointment with the right doctor and enjoy the services.</p>
+            <p><a href="/services" class="btn btn-primary">Learn More</a></p>
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+            <span class="icon flaticon-hospital-bed"></span>
+            <h2 class="text-primary">Patient Services</h2>
+            <p class="lead">We provide varied services, public education, and other outreaches intended to increase patients awreness is one of our innovative wys of reaching out to patients with our services.
+            <p><a href="/about" class="btn btn-primary">Learn More</a></p>
+          </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+            <span class="icon flaticon-doctor"></span>
+            <h2 class="text-primary">Expert Doctors</h2>
+            <p class="lead">We offer the contact to the most proficient and credible doctors. This are specialists with a mass of years of experience.</p>
+            <p><a href="/provider" class="btn btn-primary">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END section -->
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-5 element-animate">
+      <div class="col-md-8 text-center mb-5">
+        <h2 class="text-uppercase heading border-bottom mb-4">Our Doctors</h2>
+        <p class="mb-0 lead">We provide you with award winning doctors who are at your service at all times. Never hesitate to make a contact with them when you are in need.</p>
+      </div>
+    </div>
+    <div class="row element-animate">
+      <div class="major-caousel js-carousel-1 owl-carousel">
+        <div>
+          <div class="media d-block media-custom text-center">
+            <img src="static/img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
+              <p>A specialist in Breast Cancer.</p>
+              <p>
+                <a href="https://www.facebook.com/CareHub-112615073428983/" class="p-2"><span class="fa fa-facebook"></span></a>
+                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <img src="https://images.squarespace-cdn.com/content/v1/5a5baed98dd041eb3ccb3b54/1561484968282-X3X95953B1NHX0CCZ4M6/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/s4a_onc26.jpg?format=750w" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
+              <p>Qualified oncologist.</p>
+              <p>
+                <li><a href="https://www.facebook.com/CareHub-112615073428983/"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://twitter.com/home?lang=en"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="https://www.instagram.com/carehub2788/"><span class="fa fa-instagram"></span></a></li>
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-center">
+            <img src="static/img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <h3 class="mt-0 text-black">Dr. Jean Doe</h3>
+              <p>A specialist oncologist and surgeon. Has 25years of experience.</p>
+              <p>
+                <a href="https://www.facebook.com/CareHub-112615073428983/" class="p-2"><span class="fa fa-facebook"></span></a>
+                <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+                <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+</section>
+<!-- END section -->
+
+<section class="cover_1" style="background-image: url(static/img/bg_1.jpg);">
+  <div class="container">
+    <div class="row text-center justify-content-center">
+      <div class="col-md-10">
+        <h2 class="heading element-animate">Experience Our Advance Facilities</h2>
+        <p class="sub-heading element-animate mb-5">Experience our addon services such as travell facilitation to cancer centers overseas and our services to our clients, such as transport, and accommodation during the period.</p>
+        <p class="element-animate"><a href="#" class="btn btn-primary btn-lg">Get In Touch</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END section -->
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center mb-5 element-animate">
+      <div class="col-md-8 text-center mb-5">
+        <h2 class="text-uppercase heading border-bottom mb-4">News &amp; Events</h2>
+          <p class="mb-0 lead">Since we want to suply you with the most cureent news, we are working to incoporate the most recent news updates about recent development in cancer research and treatment.</p>
+      </div>
+    </div>
+    <div class="row element-animate">
+      <div class="major-caousel js-carousel-2 owl-carousel">
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2016/56cd5fec14a8a.png" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">December 2, 2017</span>
+              <h3 class="mt-0 text-black"><a href="https://medicalxpress.com/news/2018-08-anti-cancer-drugs-cancers-sleeppermanently.html" class="text-black">New anti-cancer drugs put cancers to sleep—permanently</a></h3>
+              <p>In a world first, Melbourne scientists have discovered a new type of anti-cancer drug that can put cancer cells into a permanent sleep, without the harmful side-effects caused by conventional cancer therapies. </p>
+              <p class="clearfix">
+                <a href="#" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 8</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://qcv4s030x8-flywheel.netdna-ssl.com/wp-content/uploads/2018/04/in-the-news.png" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 14, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">New mom said a doctor told her to lose weight. She actually had cancer</a></h3>
+              <p>When Jen Curran was pregnant with her daughter, her blood pressure was high and there was a lot of protein in her urine. When the protein persisted after pregnancy one doctor told her to lose weight to fix it. But it turns out she had cancer. .</p>
+              <p class="clearfix">
+                <a href="https://www.today.com/health/new-mom-said-doctor-told-her-lose-weight-she-had-t160809" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 2</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="static/img/img_thumb_3.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 14, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">FDA Approves Olaparib for Frontline Maintenance Therapy for Ovarian Cancer</a></h3>
+              <p>The Federal Drug Administration (FDA) made an exciting announcement this week with the first approval for PARP inhibitors to be used for patients following their initial diagnosis and treatment to reduce the risk of recurrence. </p>
+              <p class="clearfix">
+                <a href="https://www.rivkin.org/olaparib-for-frontline-maintenance-therapy-for-ovarian-cancer/" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 5</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://www.usnews.com/dims4/USNEWS/1497eb8/2147483647/thumbnail/970x647/quality/85/?url=http%3A%2F%2Fcom-usnews-beam-media.s3.amazonaws.com%2F14%2Fe3%2Fee77ff0741dabc0b0816e10065be%2F190129-lab-editorial.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 14, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">Scientists Say They'll Have Cancer Cure in Next Year</a></h3>
+              <p>A team of scientists in Israel says they'll likely have discovered a cure for cancer in the next year. <br>
+                The Jerusalem Post reports the small team led by Accelerated Evolution Biotechnologies CEO Ilan Morad thinks it might have found the first complete cure – a treatment akin to a cancer antibiotic. The treatment, called MuTaTo (multi-target toxin),
+              </p>
+              <p class="clearfix">
+                <a href="https://www.usnews.com/news/national-news/articles/2019-01-29/israeli-scientists-say-theyll-have-cancer-cure-in-the-next-year-report" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 7</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://www.standardmedia.co.ke/ureport-uploads/FILE-1565597009.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">Aug 12, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">The Cancer scourge in Kenya</a></h3>
+              <p>Cancer has mercilessly taken some of our big people in our country, Kenya. With the recent incident, the Safaricom Chief Executive Officer, Mr. Bob Collymore and MP.Ken Okoth</p>
+              <p class="clearfix">
+                <a href="https://www.standardmedia.co.ke/ureport/article/2001337819/the-cancer-scourge-in-kenya" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 1</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMDU2OTMyMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTU2NjQyMDY3Mn0.yEBaTKFwNRYk1myRcfpG9o2MoUtIE-aEbqbBcveBnXc/img.jpg?width=1245&coordinates=0%2C97%2C0%2C2&height=700" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 13, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">
+                Flavonoids could curb cancer risk — even for smokers and drinkers
+                </a></h3>
+              <p>Scientists continue to learn more about this class of plant chemicals that's known to have extraordinary health benefits.</p>
+              <p class="clearfix">
+                <a href="https://bigthink.com/surprising-science/flavonoids-cancer" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 4</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://www.sciencedaily.com/images/2019/08/190813080204_1_540x360.jpg" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 13, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">Flavonoid-rich diet protects against cancer and heart disease, study finds</a></h3>
+              <p>Consuming flavonoid-rich items such as apples and tea protects against cancer and heart disease, particularly for smokers and heavy drinkers, according to new research. p>
+              <p class="clearfix">
+                <a href="#" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 12</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="media d-block media-custom text-left">
+            <img src="https://www.sciencedaily.com/releases/2019/08/190805134024.htm" alt="Image Placeholder" class="img-fluid">
+            <div class="media-body">
+              <span class="meta-post">August 5, 2019</span>
+              <h3 class="mt-0 text-black"><a href="#" class="text-black">Novel nano-vaccine for melanoma</a></h3>
+              <p>Researchers have developed a novel nano-vaccine for melanoma, the most aggressive type of skin cancer. Their approach has so far proven effective in preventing the development of melanoma in mouse models and in treating primary tumors and metastases that result from melanoma. </p>
+              <p class="clearfix">
+                <a href="#" class="float-left">Read more</a>
+                <a href="#" class="float-right meta-chat"><span class="ion-chatbubble"></span> 14</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END slider -->
+    </div>
+  </div>
+</section>
+<!-- END section -->
+
+<a href="#" class="cta-link element-animate" data-animate-effect="fadeIn" data-toggle="modal" data-target="#modalAppointment">
+  <span class="sub-heading">Dont wait till its late!</span>
+  <span class="heading">Reach Out For Help.</span>
+</a>
+
+
+<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+          <div class="form-group">
+            <label for="appointment_name" class="text-black">Full Name</label>
+            <input type="text" class="form-control" id="appointment_name">
+          </div>
+          <div class="form-group">
+            <label for="appointment_email" class="text-black">Email</label>
+            <input type="text" class="form-control" id="appointment_email">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="appointment_date" class="text-black">Date</label>
+                <input type="text" class="form-control" id="appointment_date">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="appointment_time" class="text-black">Time</label>
+                <input type="text" class="form-control" id="appointment_time">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="appointment_message" class="text-black">Message</label>
+            <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">function add_chatinline(){var hccid=10689259;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline(); </script>
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/bootstrap-datepicker.js"></script>
+<script src="static/js/jquery.timepicker.min.js"></script>
+<script src="static/js/jquery.waypoints.min.js"></script>
+<script src="static/js/main.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+
+{% block styles%}
+{{ super() }}
+<link
+  href="https://fonts.googleapis.com/css?family=Cabin|Indie+Flower|Montserrat|Neucha|Noto+Serif+JP|Noto+Serif+KR|Roboto+Mono"
+  rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+  integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+{% endblock %}
+
+{% block content %}
+<br><br><br><br>
+
+<div id="postform">
+  <div class="panel col-md-12">
+    <div class="panel-body">
+      {{wtf.quick_form(post_form)}}
+      {{simplemde.load}}
+    </div>
+  </div>
+</div>
+<!-- END cta-link -->
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="row mb-5 element-animate">
+      <div class="col-md-3 mb-5">
+        <h3>Services</h3>
+        <ul class="footer-link list-unstyled">
+          <li><a href="/support">Find a doctor</a></li>
+          <li><a href="/contact">Urgent Care</a></li>
+          <li><a href="/contact">Emergency Care</a></li>
+          <li><a href="/facts">Procedures &amp; Treatments</a></li>
+          <li><a href="/services">Online Services</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-5">
+        <h3>Latest News</h3>
+        <ul class="footer-link list-unstyled">
+          <li><a href="/news">News &amp; Press Releases</a></li>
+          <li><a href="/news">Health Care Professional News</a></li>
+          <li><a href="/support">Events &amp; Conferences</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-5">
+        <h3>About</h3>
+        <ul class="footer-link list-unstyled">
+          <li><a href="/about">About The Hospital</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <!-- <li><a href="#">Accreditations &amp; Awards</a></li> -->
+          <li><a href="#" >Careers</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-5">
+        <h3>Location &amp; Contact</h3>
+        <p class="mb-5">134 Street Name, City Name Here, United States</p>
+
+        <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
+        <p class="mb-5"><a href="mailto:joflixo@gmail.com">info@carehub.com</a></p>
+
+        <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
+        <p><a href="tel:0708275041">+254 708275041</a></p>
+
+      </div>
+    </div>
+
+    <div class="row pt-md-3 element-animate">
+      <div class="col-md-12">
+        <hr class="border-t">
+      </div>
+      <div class="col-md-6 col-sm-12 copyright">
+        <p>&copy; 2019 CareHub. Designed &amp; Developed by <a href="/">CareHub</a></p>
+      </div>
+      <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
+        <a href="https://www.facebook.com/CareHub-112615073428983/" class="p-2"><span class="fa fa-facebook"></span></a>
+        <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+        <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END footer -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalAppointment" tabindex="-1" role="dialog" aria-labelledby="modalAppointmentLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalAppointmentLabel">Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="#">
+          <div class="form-group">
+            <label for="appointment_name" class="text-black">Full Name</label>
+            <input type="text" class="form-control" id="appointment_name">
+          </div>
+          <div class="form-group">
+            <label for="appointment_email" class="text-black">Email</label>
+            <input type="text" class="form-control" id="appointment_email">
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="appointment_date" class="text-black">Date</label>
+                <input type="text" class="form-control" id="appointment_date">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="appointment_time" class="text-black">Time</label>
+                <input type="text" class="form-control" id="appointment_time">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form-group">
+            <label for="appointment_message" class="text-black">Message</label>
+            <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">function add_chatinline(){var hccid=10689259;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline(); </script>
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/js/popper.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/bootstrap-datepicker.js"></script>
+<script src="static/js/jquery.timepicker.min.js"></script>
+<script src="static/js/jquery.waypoints.min.js"></script>
+<script src="static/js/main.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">function add_chatinline(){var hccid=10689259;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline(); </script>
+{% endblock %}

@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 c9139324823ba39eba234c78f290cd6583f7e4de vincentouma <vinceoumah@gmail.com> 1565681545 +0300	branch: Created from master
+c9139324823ba39eba234c78f290cd6583f7e4de fbef2d34559f1c908db7634f5307d65524ec0557 vincentouma <vinceoumah@gmail.com> 1565681696 +0300	commit: create folder structure
+fbef2d34559f1c908db7634f5307d65524ec0557 defddc1ce2bf3afb579cbec2f4c784fa520a2965 vincentouma <vinceoumah@gmail.com> 1565681833 +0300	commit: install app requirements
+defddc1ce2bf3afb579cbec2f4c784fa520a2965 6a47de0c135a878df3c962dbdf7ba4c7b28b1708 vincentouma <vinceoumah@gmail.com> 1565696890 +0300	commit: craete base.html
+6a47de0c135a878df3c962dbdf7ba4c7b28b1708 76dc5203e1f6192b54582d45115d96e7158743ee vincentouma <vinceoumah@gmail.com> 1565702890 +0300	commit: add fact on cancer in facts.html
+76dc5203e1f6192b54582d45115d96e7158743ee 31f6414790385d2c82303e3601f97b4d4718a7b8 vincentouma <vinceoumah@gmail.com> 1565722216 +0300	commit: add cancer health catre providers in provide.html
+31f6414790385d2c82303e3601f97b4d4718a7b8 7f24f0b4eda11cf384574cdb38b98b1e89177569 vincentouma <vinceoumah@gmail.com> 1565768462 +0300	commit: add support
